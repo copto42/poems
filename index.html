@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de amor medieval</title>
+  <style>
+        body {
+            background-color: #f7f3e8; 
+            font-family: 'Alex Brush', cursive; 
+            color: #332211; 
+            margin: 20px; /* Margen más pequeño para pantallas pequeñas */
+        }
+
+        .carta {
+            background-color: #fffbf0; 
+            border: 5px solid #b59d7d; 
+            padding: 20px; /* Padding más pequeño para pantallas pequeñas */
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); 
+            text-align: justify;
+        }
+
+        .flores {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            flex-wrap: wrap; /* Permite que las flores se ajusten en varias líneas */
+        }
+
+        .rosa {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            margin-bottom: 10px; /* Espacio entre las flores cuando se ajustan */
+        }
+
+        /* ... (Código CSS de la rosa - sin cambios) ... */
+
+        h1 {
+            text-align: center;
+            font-size: 2.5em; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.8em;
+            font-size: 1.1em; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+        }
+
+        .firma {
+            text-align: right;
+            margin-top: 30px;
+        }
+
+        /* Media query para pantallas pequeñas */
+        @media (max-width: 600px) {
+            .rosa {
+                width: 80px; /* Rosas más pequeñas en pantallas pequeñas */
+                height: 80px;
+            }
+
+            h1 {
+                font-size: 2em; 
+            }
+
+            p {
+                font-size: 1em; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="carta">
+        <div class="flores">
+            <div class="rosa"><span></span></div>
+            <div class="rosa"><span></span></div>
+            <div class="rosa"><span></span></div>
+        </div>
+        
+        <h1>¡Oh, mi amado tesoro!</h1>
+        <p>Desde las lejanas tierras que mis pies recorren en este vasto mundo, te envío mis humildes palabras. He de confesarte que mis ojos han contemplado maravillas sin fin, colores vibrantes y alegrías efímeras que harían de este lugar una utopía, un paraíso terrenal.</p>
+        <p>Mas, ¡ay de mí!, con la llegada de la noche, un vacío se apodera de mi alma, perturbando mi descanso y acechándome sin tregua cual espectro. Solo en los brazos de Morfeo encuentro un efímero escape a este tormento. Temo que tras la máscara de perfección que este mundo ostenta, se esconda una falsedad tan sutil que pocos logran percibir.</p>
+        <p>Anhelo con fervor viajar a otras tierras, a otros reinos, pues al caer el sol, siento que mi espíritu se prepara para un viaje onírico, un retorno a los recuerdos de antaño donde la dicha reinaba y la imperfección era belleza. Aquel lugar, cuna de mi felicidad, donde nuestros corazones laten al unísono y la alegría nos acompaña a cada paso.</p>
+        <p>En la quietud de la noche, mis pensamientos vuelan hacia ti, imaginando mil y un futuros donde la felicidad nos envuelve. Pero al despertar, la cruda realidad me golpea con su frialdad, el vacío me consume y el mundo pierde su color. Es entonces cuando comprendo que mi desdicha no es otra que tu ausencia, mi más grande anhelo.</p>
+        <p>Con la esperanza de volver a tus brazos, me despido.</p>
+
+        <div class="firma">
+            <p>Atentamente,</p>
+            <p>Tu fiel amante.</p>
+        </div>
+    </div>
+</body>
+</html>
